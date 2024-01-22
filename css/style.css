@@ -1,0 +1,65 @@
+body{
+    font-family: Be Vietnam Pro,sans-serif;
+}
+main {
+    width: 100%;
+}
+.container {
+    width: 80rem;
+    margin-inline: auto;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding: 50px 0px 20px 0px;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    /* gap: 20px;  */
+}
+.child {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.get {
+    color: hsl(0, 0%, 98%);
+    width: 130px;
+    height: 30px;
+   background-color:  hsl(12, 88%, 59%);
+   border-radius: 40px;
+   padding-top: 8px;
+   padding-inline: 30px;
+   border: none;
+   text-align: center;
+}
+.get:hover { 
+    background-color: hsl(13, 100%, 96%);
+}
+
+.head {
+    font-size: 65px;
+    font-weight: 700;
+    color: hsl(233, 12%, 13%);
+    margin: 0;
+}
+.para {
+    font-size: 17px;
+    color: hsl(227, 12%, 61%);
+    width: 60%;
+    /* padding-right: 50%; */
+    line-height: 1.5;
+    
+}
+.her {
+    display: flex;
+    flex-direction: column;
+}
+.chart {
+    width: 550px;
+    height: 500px;
+}
