@@ -149,7 +149,8 @@ body{
   font-weight: 700;
   text-align: center;
   position: relative;
-  top: -150px;
+  top: -90px;
+  padding-top: 79px;
 }
 .review {
   display: flex;
@@ -196,8 +197,8 @@ body{
   top: -10px;
 }
 .father-review{
-  position: relative;
-  top: 320px;
+  margin-bottom: -79px;
+
 }
 
   .footer {
@@ -233,7 +234,36 @@ body{
   .h:hover {
     color: hsl(12, 88%, 59%);
   }
-
+  .cta{
+    background-color: hsl(12, 88%, 59%);
+    position: relative;
+    top: 470px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    gap: 450px;
+  }
+  .cta-header2{
+    font-size: 41px;
+    color: white;
+    width: 500px;
+    font-weight: 700;
+    padding: 70px;
+  }
+  .cta-nav {
+    color: hsl(12, 88%, 59%);
+    width: 130px;
+    height: 30px;
+    background-color: white;
+    border-radius: 40px;
+    border: none;
+    position: relative;
+    text-align: center;
+  }
+  .cta-nav:hover{
+    color: hsl(13, 100%, 96%);
+  }
 
   
 
