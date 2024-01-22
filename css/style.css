@@ -15,10 +15,11 @@ body{
 .nav {
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 130px;
     padding: 50px 0px 20px 0px;
 }
 .hero {
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,13 +34,14 @@ body{
 .get {
     color: hsl(0, 0%, 98%);
     width: 130px;
-    height: 30px;
+    height: 31px;
    background-color:  hsl(12, 88%, 59%);
    border-radius: 40px;
    padding-top: 8px;
    padding-inline: 30px;
    border: none;
    text-align: center;
+   margin-top: -8px;
 }
 .get:hover { 
     background-color: hsl(13, 100%, 96%);
@@ -74,14 +76,15 @@ body{
     display: flex;
     flex-direction: row;
      margin: 0;
-     gap: 45px;
+     gap: 35px;
 }
 .suk,
 .Pro {
     list-style: none;
     color: hsl(233, 12%, 13%);
     font-weight: 700;
-    
+    margin-top: -1px;
+    margin-left: -15px;
 }
   
   .main1 {
