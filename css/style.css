@@ -63,3 +63,18 @@ body{
     width: 550px;
     height: 500px;
 }
+.Pro:hover {
+    color: hsl(13, 100%, 96%);  
+}
+.suk {
+    display: flex;
+    flex-direction: row;
+     margin: 0;
+     gap: 45px;
+}
+.suk,
+.Pro {
+    list-style: none;
+    color: hsl(233, 12%, 13%);
+    font-weight: 700;
+}
