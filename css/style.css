@@ -4,9 +4,13 @@ body{
 .conect {
     width: 100%;
 }
+ /* *{
+     border: 2px solid blue; 
+} */
 .container {
     width: 80rem;
     margin-inline: auto;
+    margin-bottom: 79px;
 }
 .nav {
     display: flex;
@@ -19,8 +23,8 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 90%;
-    /* gap: 20px;  */
+    width: 100%;
+    gap: 20px;
 }
 .child {
     display: flex;
@@ -89,8 +93,8 @@ body{
     width: 80rem;
     margin-inline: auto;
     gap: 130px;
-    position: relative;
-    top: 150px;
+    /* position: relative;
+    top: 150px; */
   }
   
   .father-sections {
@@ -142,4 +146,96 @@ body{
   .header4 {
     color: hsl(228, 39%, 23%);
   }
+  .header2-2 {
+    color: hsl(228, 39%, 23%);
+    font-size: 31px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: -150px;
+  }
+  .review {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 210px;
+  }
+  .review > div {
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+  .review-paragrapgh {
+    text-align: center;
+    color: hsl(227, 12%, 61%);
+  }
+  .review-names {
+    color: hsl(233, 12%, 13%);
+    font-weight: 700;
+  }
+  .review-nav {
+    color: hsl(0, 0%, 98%);
+    width: 130px;
+    height: 30px;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 40px;
+    border: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 110px;
+    text-align: center;
+  }
+  .review-nav:hover {
+    background-color: hsl(13, 100%, 96%);
+  }
+  .images-review{
+    position: absolute;
+    top: -10px;
+  }
+  .father-review{
+    position: relative;
+    top: 320px;
+  }
+  .footer {
+    background-color: hsl(233, 12%, 13%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* width: ; */
+    gap: 300px;
+    position: relative;
+    bottom: -500px;
+  }
+  .Home {
+    color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 15px;
+    font-size: 16px;
+  }
+  .log {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .lang {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+  }
+  .h:hover {
+    color: hsl(12, 88%, 59%);
+  }
+
+
+  
   
